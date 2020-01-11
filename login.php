@@ -13,7 +13,7 @@ require 'configdb/config.php';
     <div id = "login-wrapper">
 	   <center>
 		   
-	       <img src = "imgs/logo.jpg" class ="avatar" />
+	       <img src = "imgs/bet365.png" class ="avatar" />
 	   </center>
 	 
 	 

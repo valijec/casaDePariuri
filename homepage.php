@@ -8,25 +8,29 @@ require 'configdb/config.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
  <body> 
-  <div class ="jumbotron" style = "background:url('imgs/coverhp.png') no-repeat;     background-position: center;
+  <div class ="jumbotron" style = "background:url('imgs/bet365.png') no-repeat;     background-position: center;
     background-size: cover;
     padding: 85px;" > </div>
   <div class = "container-fluid"> 
   <div class = "row" >
         <div class ="col-md-3">
 		   <div class = "list-group">
-		        <a href="homepage.php" class="list-group-item active"><b>Home</b></a>
+		        <a href="homepage.php" class="list-group-item active"><b>Acasa</b></a>
 				
-				<a href="homepage.php" class="list-group-item list-group-item-action list-group-item-secondary enabled"><b>FOOTBALL</b></a>
-				<!--<a href="homepage2.php" class="list-group-item list-group-item-action list-group-item-secondary enabled">Add football match</a>-->
+				<a href="homepage.php" class="list-group-item list-group-item-action list-group-item-secondary enabled"><b>Fotbal</b></a>
+				<a href="homepage2.php" class="list-group-item list-group-item-action list-group-item-secondary enabled"><b>Adauga meci fotbal</b></a>
 				
-				<a href="login.php" class="list-group-item list-group-item-action list-group-item-secondary enabled">Log Out</a>
+				<a href="login.php" class="list-group-item list-group-item-action list-group-item-secondary enabled">Iesire</a>
 			</div>			
         </div>
         <div class = "col-md-8">
           <div class = "card">		
 	 	     <div class="card-body"    style = "background-color:#009432;color:#ffffff;margin-bottom: -40px">
-	                <h3   style= "font-size:20px; " ><b>Europa League </b>  </h3>		 
+			 <a   href="cote.php" target="popup" 
+			  onclick="window.open('cote.php','popup','width=600,height=700'); return false;" 
+			  class = "btn btn-primary" style="float:right;color:black;background-color:#f1c40f"><b>Mai multe cote</b> </a>
+	                <h3   style= "font-size:20px; " ><b>Europa League </b>  </h3>	
+					
 			 </div>
 			 <div class ="card-body" ></div>				 
        <table class="table table-hover">
@@ -38,6 +42,7 @@ require 'configdb/config.php';
       <th scope="col">1</th>
 	  <th scope="col">X</th>
 	  <th scope="col">2</th>
+	
 	  
     </tr>
   </thead>
@@ -58,15 +63,19 @@ require 'configdb/config.php';
      <div class = "col-md-8 " style="left: 338px">
           <div class = "card">		
 	 	     <div class="card-body"    style = "background-color:#009432;color:#ffffff;margin-bottom: -40px">
+			  <a   href="cote.php" target="popup" 
+			  onclick="window.open('cote.php','popup','width=600,height=600'); return false;" 
+			  class = "btn btn-primary" style="float:right;color:black;background-color:#f1c40f"><b>Mai multe cote</b> </a>
+			 
 	                <h3   style= "font-size:20px; " ><b>Champions League </b>  </h3>		 
 			 </div>
 			 <div class ="card-body" ></div>				 
        <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Echipa1</th>
+      <th scope="col">Echipa 1</th>
       <th scope="col">VS</th>
-      <th scope="col">Echipa2</th>
+      <th scope="col">Echipa 2</th>
       <th scope="col">1</th>
 	  <th scope="col">X</th>
 	  <th scope="col">2</th>
@@ -74,6 +83,7 @@ require 'configdb/config.php';
     </tr>
   </thead>
   <tbody>
+  
   
   
   
@@ -156,7 +166,7 @@ while($row=mysqli_fetch_array($result)){
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src ="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.all.min.js"></script>
 	<script type="text/javascript">
-
+      
 	</script>
 </body>
 </html>

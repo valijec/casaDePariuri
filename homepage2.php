@@ -8,7 +8,7 @@ require 'configdb/config.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
  <body> 
-  <div class ="jumbotron" style = "background:url('imgs/coverhp.png') no-repeat;     background-position: center;
+  <div class ="jumbotron" style = "background:url('imgs/bet365.png') no-repeat;     background-position: center;
     background-size: cover;
     padding: 85px;" > </div>
   <div class = "container-fluid"> 
@@ -23,10 +23,10 @@ require 'configdb/config.php';
         </div>
         <div class = "col-md-8">
           <div class = "card">		
-	 	     <div class="card-body"    style = "background-color:#e74c3c;color:#ffffff;">
+	 	     <div class="card-body"    style = "background-color:#009432;color:#ffffff;">
 	                <h3   style= "font-size:20px; " ><b>Add a match </b>  </h3>		 
 			 </div>
-			 <div class = "card-body"  style = "background-color:#82ccdd;">
+			 <div class = "card-body"  style = "background-color:#fbc531;">
 			    <form class = "form-group" action="homepage.php" method = "post">
 				   <label>Echipa 1:</label>
 				   <input type="text" name="echipa1" class="form-control"><br>
